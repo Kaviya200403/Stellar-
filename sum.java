@@ -13,5 +13,6 @@ class a{
         for(int j=0;j<=arr.length;j++)
         s=s+arr[j];
         System.out.println(s);
+        sc.close();
     }
 }
