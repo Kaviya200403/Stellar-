@@ -1,17 +1,15 @@
 import java.util.Scanner;
 
-public class zero {
+public class digit {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String st = "false";
+        int c = 0;
         int a = sc.nextInt();
         while(a>0){
-            int r=a%10;
-            if(r==0)
-                st ="true";
+            c = c+1;
             a =(a/10);
         }
-        System.out.println(st);
+        System.out.println(c);
         sc.close();
     }
 }

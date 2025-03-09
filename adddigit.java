@@ -1,15 +1,15 @@
-import java.util.Scanner;
+import java.util.*;
 
-public class nodigit {
+public class adddigit {
     public static void main(String[] args) {
+        int su=0;
         Scanner sc = new Scanner(System.in);
-        int c = 0;
         int a = sc.nextInt();
         while(a>0){
-            c = c+1;
+            su = su+(a%10);
             a =(a/10);
         }
-        System.out.println(c);
+        System.out.println(su);
         sc.close();
     }
 }

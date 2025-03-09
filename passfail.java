@@ -1,15 +1,15 @@
 import java.util.*;
-public class decision {
+public class passfail {
     public static void main(String[] args) {
-        Scanner o = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int m,pass=50;
-        m=o.nextInt();
+        m=sc.nextInt();
         if(m>=pass){
             System.out.println("pass");
         }
         else{
             System.out.println("Fail");
         }
-        o.close();
+        sc.close();
     }
 }

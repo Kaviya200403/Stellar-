@@ -1,4 +1,4 @@
-public class ret {
+public class r {
     public static int display (int a){
        return ++a;
     }

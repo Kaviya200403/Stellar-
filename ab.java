@@ -1,15 +1,17 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class sumdigit {
+public class ab {
     public static void main(String[] args) {
-        int su=0;
         Scanner sc = new Scanner(System.in);
+        String st = "false";
         int a = sc.nextInt();
         while(a>0){
-            su = su+(a%10);
+            int r=a%10;
+            if(r==0)
+                st ="true";
             a =(a/10);
         }
-        System.out.println(su);
+        System.out.println(st);
         sc.close();
     }
 }

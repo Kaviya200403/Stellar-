@@ -1,5 +1,5 @@
 import java.util.*;
-public class basis{
+public class avg{
     public static void main(String ar[]){
         Scanner obj = new Scanner(System.in);
         int sum=0;

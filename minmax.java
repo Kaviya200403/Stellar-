@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class max{
+class minmax{
 public static void main(String[] args)
 {
 Scanner input= new Scanner(System.in);
@@ -23,5 +23,6 @@ min=array[i];
 System.out.print("the maximum number is:"+max);
 System.out.println();
 System.out.print("the minimum number is:"+min);
+input.close();
 }
 }
